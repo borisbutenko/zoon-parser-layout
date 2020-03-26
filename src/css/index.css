@@ -4,6 +4,7 @@
 	--color-purple: #6339F5;
 	--color-purple-2: #5A39A7;
 	--color-purple-3: #AF87F5;
+	--color-gray: #A7A7AE;
 	--color-lightgray: #F9FAFB;
 	--color-green: #27AA54;
 }
@@ -38,13 +39,29 @@ h6 {
 	margin-bottom: 20px;
 }
 
+.section__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .section__title {
 	margin-bottom: 20px;
 	font-size: 20px;
 	line-height: 28px;
 }
 
+.section__description {
+	font-size: 13px;
+	line-height: 20px;
+	color: var(--color-gray);
+}
+
 .header {
+	margin-bottom: 20px;
+}
+
+.footer {
 	margin-bottom: 20px;
 }
 

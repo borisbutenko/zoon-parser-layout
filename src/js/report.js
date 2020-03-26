@@ -159,6 +159,6 @@
 		],
 	};
 
-	window.Highcharts.chart('report-1', chart_opt);
+	window.Highcharts.chart('chart', chart_opt);
 	hide_different_chart_labels(window.Highcharts.charts[0]);
 })();
